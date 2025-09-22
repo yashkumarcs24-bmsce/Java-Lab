@@ -83,4 +83,5 @@ class Factorial{
         }
         System.out.println("The factorial of number 6 is: "+factorial);
     }
+
 }
