@@ -11,7 +11,7 @@ class SimpleCalculator
 {
 public static void main(String arg[])
 {
-int a=10,b=2;
+int a=10,b=5;
 int sum=a+b;
 int difference=a-b;
 int product=a*b;
@@ -29,9 +29,9 @@ class SimpleInterest
 {
 public static void main(String arg[])
 {
-int principle=10000;
-double interest=7.2;
-int time=5;
+int principle=50000;
+double interest=6.5;
+int time=10;
 double simple_interest=(principle*interest*time)/100;
 System.out.println("principle is:"+principle);
 System.out.println("interest is:"+interest);
