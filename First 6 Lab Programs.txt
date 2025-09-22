@@ -1,0 +1,84 @@
+FIRST PROGRAM
+class FirstProgram{
+public static void main(String arg[])
+{
+System.out.println("Hello World");
+}
+}
+
+SECOND PROGRAM
+class SimpleCalculator
+{
+public static void main(String arg[])
+{
+int a=10,b=2;
+int sum=a+b;
+int difference=a-b;
+int product=a*b;
+int quotient=a/b;
+System.out.println("Two numbers are:"+a +' '+b);
+System.out.println("Sum of two numbers is:"+sum);
+System.out.println("Differnece of two numbers is:"+difference);
+System.out.println("Product of two numbers is:"+product);
+System.out.println("Quotient of two numbers is:"+quotient);
+}
+}
+
+THIRD PROGRAM
+class SimpleInterest
+{
+public static void main(String arg[])
+{
+int principle=10000;
+double interest=7.2;
+int time=5;
+double simple_interest=(principle*interest*time)/100;
+System.out.println("principle is:"+principle);
+System.out.println("interest is:"+interest);
+System.out.println("time is:"+time);
+System.out.println("simple interest is:"+simple_interest);
+}
+}
+
+FOURTH PROGRAM
+class FibonacciSeries
+{
+public static void main(String arg[])
+{
+int n1=0,n2=1;
+int n=5;
+System.out.println("sum of upto 5 terms");
+while (n>0){
+System.out.println(n1);
+int nth=n1+n2;
+n1=n2;
+n2=nth;
+n--;
+}
+}
+}
+
+FIFTH PROGRAM
+class MultiplicationTables{
+    public static void main(String[] args) {
+        System.out.println("Multiplication table of 3 and 5");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("3x" + i + "=" + 3 * i);
+        }
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("5x" + i + "=" + 5 * i);
+        }
+    }
+}
+
+SIXTH PROGRAM
+class Factorial{
+    public static void main(String[] args) {
+        int n=6;
+        int factorial=1;
+        for (int i = 1; i <= 6; i++) {
+            factorial*=i;
+        }
+        System.out.println("The factorial of number 6 is: "+factorial);
+    }
+}
